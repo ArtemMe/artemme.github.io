@@ -1,9 +1,6 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: About me 
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
-
-email: agus[at]python.web.id
+This is a static page. It could be an 'about page' if you'd like.

@@ -1,56 +1,19 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
-enableTags: true
-tagarray: []
-
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
-
-social:
-  - icon: fa-facebook
-    link: "#"
-  - icon: fa-twitter
-    link: "#"
-  - icon: fa-linkedin
-    link: "#"
-  - icon: fa-stack-exchange
-    link: "#"
-  - icon: fa-github
-    link: "https://github.com/agusmakmun"
-
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
-
-urls:
-  - text: About Me
-    url: /about/
-  - text: My Projects
-    url: /projects/
-  - text: XML Feed
-    url: /feed.xml
-
-url: "https://agusmakmun.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+highlighter: rouge
+logo: false
+paginate: 15
+baseurl: /kasper
+domain_name: "http://yourblog-domain.com"
+google_analytics: "UA-XXXXXXXX-X"
+plugins: [jekyll-paginate]
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+# Details for the RSS feed generator
+url: ""
+author: "Your Name"
+
+# Disqus config
+disqus-shortname: ""
